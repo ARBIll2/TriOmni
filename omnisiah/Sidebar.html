@@ -1,4 +1,9 @@
 <!-- @summary Sidebar UI -->
 <div>
   <h1>TriOmni Sidebar</h1>
+  <? if (data) { ?>
+    <p>Account: <?= data.name ?> (<?= data.id ?>)</p>
+  <? } else { ?>
+    <p>No account selected.</p>
+  <? } ?>
 </div>
