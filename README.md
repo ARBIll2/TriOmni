@@ -27,6 +27,7 @@ Every user runs a timed task from Vox Mechana that scans new customer messages, 
 - `/rite_of_activation/` – Installation script.
 - `/tests/` – Unit tests mirroring the source folders.
 - `/docs/` – Additional documentation.
+- `/docs/omnisiah_core_ui.md` – Features and UI description for Omnisiah Core.
 
 ## Contributing
 
