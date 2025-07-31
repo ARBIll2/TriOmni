@@ -53,13 +53,13 @@
 // ✅ Folder + File Layout Expectations
 /////////////////////////////
 
-// - /core/OmnisiahCore.gs
-// - /lib/VoxMechana_Lib.gs
-// - /setup/RiteOfActivation.gs
-// - /utils/safeAppendRowWithLock.gs
-// - /classify/classifyEmailWithScore.gs
-// - /merge/mergeLogs.gs
-// - /ui/ProgressModal.html
+// - /omnisiah/omnisiah_core.gs
+// - /vox_mechana/vox_mechana_lib.gs
+// - /rite_of_activation/rite_of_activation.gs
+// - /vox_mechana/safe_append_row_with_lock.gs
+// - /vox_mechana/classify_email_with_score.gs
+// - /vox_mechana/merge_logs.gs
+// - /omnisiah/ProgressModal.html
 
 /////////////////////////////
 // ✅ Constants + Config Expectations
