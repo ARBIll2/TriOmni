@@ -23,6 +23,7 @@ Every user runs a timed task from Vox Mechana that scans new customer messages, 
 ## Folder Guide
 
 - `/omnisiah/` – Sidebar code and HTML fragments.
+- `/omnisiah/appscript.json` – Manifest configuration for the add-on.
 - `/vox_mechana/` – Libraries, classifiers and merge utilities.
 - `/rite_of_activation/` – Installation script.
 - `/tests/` – Unit tests mirroring the source folders.
