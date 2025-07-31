@@ -19,3 +19,4 @@ Contains the sidebar logic and HTML fragments rendered in Gmail or Sheets.
 ## When Updating
 - Add or update tests in `/tests/omnisiah`.
 - Update this file and the root `README.md` when files move or change.
+- Keep `appscript.json` in sync with add-on features.
