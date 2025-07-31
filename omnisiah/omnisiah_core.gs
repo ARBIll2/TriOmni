@@ -7,6 +7,7 @@
  * ```
  */
 function showSidebar() {
+  resetRuntimeState();
   const context = detectContext();
   let account = null;
   if (context.type === 'SHEETS') {

@@ -4,7 +4,7 @@ TriOmni is a modular, scalable Google Workspace system designed to distribute, m
 
 ## Components
 
-1. **Omnisiah Core (Workspace Add‑on)** – Connects Gmail and Sheets through a smart, context‑aware sidebar. It merges user logs into a unified email history and exposes triggerable actions. It now automatically detects the active account or thread using `detectContext()` and fetches sheet data via `getAccountData()`. The sidebar lists recent history via `getRecentLogs()` and long-running tasks show progress with `showProgressModal()`.
+1. **Omnisiah Core (Workspace Add‑on)** – Connects Gmail and Sheets through a smart, context‑aware sidebar. It merges user logs into a unified email history and exposes triggerable actions. It now automatically detects the active account or thread using `detectContext()` and fetches sheet data via `getAccountData()`. The sidebar lists recent history via `getRecentLogs()` and long-running tasks show progress with `showProgressModal()`. Runtime variables are cleared each execution using `resetRuntimeState()`.
 2. **Rite of Activation (User Setup Sheet)** – A one‑time install sheet that links a user to the shared Vox Mechana library, installs time‑based triggers and creates their personal log file.
 3. **Vox Mechana (User Script Library)** – Shared Apps Script logic responsible for email logging, classification, forwarding and safe locked writes.
 
