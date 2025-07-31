@@ -6,6 +6,8 @@ Contains the sidebar logic and HTML fragments rendered in Gmail or Sheets.
 - `showSidebar()` loads `Sidebar.html` and uses `globalThis` for runtime context.
 - `detectContext()` determines whether the user is in Gmail or Sheets.
 - `getAccountData(id)` reads account info using helpers from `vox_mechana`.
+- `getRecentLogs(id, max)` returns recent log rows from the 'Logs' sheet.
+- `showProgressModal(msg)` displays `ProgressModal.html` with a status message.
 - HTML fragments like `ProgressModal.html` should remain presentation-only.
 
 ## Immutable Rules
