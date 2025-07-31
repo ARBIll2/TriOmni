@@ -1,6 +1,6 @@
 # Documentation
 
-Optional specs and visual references for TriOmni.
+Optional specs and visual references for TriOmni. The `README.md` in this folder now includes a high level overview of the system.
 
 ## Main Export
 - Contains markdown or images referenced by other modules.

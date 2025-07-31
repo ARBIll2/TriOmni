@@ -1,5 +1,5 @@
 /**
- * @summary Classify a piece of text and return a score.
+ * @summary Classify a piece of text using simple rules and return a score.
  *
  * Example:
  * ```

@@ -1,5 +1,5 @@
 /**
- * @summary Time-driven task to classify recent emails.
+ * @summary Time-driven task to classify recent emails and log metadata.
  *
  * Example:
  * ```

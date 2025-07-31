@@ -1,5 +1,5 @@
 /**
- * @summary Display the Omnisiah sidebar in Gmail or Sheets.
+ * @summary Display the Omnisiah sidebar in Gmail or Sheets with context-aware account details.
  *
  * Example:
  * ```
