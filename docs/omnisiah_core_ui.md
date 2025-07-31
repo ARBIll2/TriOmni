@@ -4,7 +4,7 @@ This document describes the intended capabilities and user interface for the Omn
 
 ## Key Features
 
-- **Context‑Aware Sidebar** – Detect the active Gmail thread or selected account row in Sheets and display relevant account data.
+- **Context‑Aware Sidebar** – Detect the active Gmail thread or selected account row in Sheets and display relevant account data. Implementation uses `detectContext()` and `getAccountData()` to gather account details.
 - **Unified Log Viewer** – Merge user logs into a single history and present recent interactions in the sidebar.
 - **Triggerable Actions** – Provide quick actions such as launching forms, applying labels or searching related emails.
 - **Progress Modal** – Show task progress when running merges or classification jobs.
