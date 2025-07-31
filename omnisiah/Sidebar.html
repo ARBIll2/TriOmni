@@ -1,9 +1,18 @@
 <!-- @summary Sidebar UI -->
 <div>
   <h1>TriOmni Sidebar</h1>
-  <? if (data) { ?>
-    <p>Account: <?= data.name ?> (<?= data.id ?>)</p>
+  <? if (data.account) { ?>
+    <p>Account: <?= data.account.name ?> (<?= data.account.id ?>)</p>
   <? } else { ?>
     <p>No account selected.</p>
+  <? } ?>
+
+  <? if (data.logs && data.logs.length) { ?>
+    <h3>Recent History</h3>
+    <ul>
+    <? data.logs.forEach(function(row) { ?>
+      <li><?= row[1] ?></li>
+    <? }); ?>
+    </ul>
   <? } ?>
 </div>
