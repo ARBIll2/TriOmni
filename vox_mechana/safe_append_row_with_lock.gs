@@ -1,5 +1,5 @@
 /**
- * @summary Append a row to a sheet with script lock protection.
+ * @summary Append a row to a sheet while preventing concurrent writes.
  *
  * Example:
  * ```

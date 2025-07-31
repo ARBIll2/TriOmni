@@ -1,24 +1,24 @@
 # TriOmni
 
-TriOmni is a modular Google Workspace add-on that helps manage Gmail and Sheets workflows.
+TriOmni is a modular, scalable Google Workspace system designed to distribute, monitor and enrich information about customer accounts and their associated emails.
 
 ## Components
 
-1. **Omnisiah Core** – Provides a context-aware sidebar and UI when viewing Gmail or sheets.
-2. **Vox Mechana** – Shared library with classifiers, logging and utilities.
-3. **Rite of Activation** – One-time installer that sets up triggers and config.
+1. **Omnisiah Core (Workspace Add‑on)** – Connects Gmail and Sheets through a smart, context‑aware sidebar. It merges user logs into a unified email history and exposes triggerable actions.
+2. **Rite of Activation (User Setup Sheet)** – A one‑time install sheet that links a user to the shared Vox Mechana library, installs time‑based triggers and creates their personal log file.
+3. **Vox Mechana (User Script Library)** – Shared Apps Script logic responsible for email logging, classification, forwarding and safe locked writes.
 
 ## Installation
 
-Run the `RiteOfActivation.gs` script to install triggers and configure your environment.
+Each user opens the setup sheet in `/rite_of_activation/` and runs `install()` once. This links their account to the Vox Mechana library, creates their personal log file and schedules the time‑based triggers.
 
 ## Sidebar Usage
 
-When viewing Gmail or a sheet, run `showSidebar()` to open the Omnisiah sidebar. It reads account context and displays relevant tools.
+When viewing Gmail or a sheet, run `showSidebar()` to open the Omnisiah sidebar. It automatically detects the email or account cell in focus and shows related details pulled from a shared account sheet and the central email log. From the sidebar you can trigger actions such as launching a form, applying labels or searching past interactions.
 
 ## Logging and Classification
 
-Emails are classified using `classifyEmailWithScore()` in the `vox_mechana/` folder. Logs are merged daily by `mergeLogs()` to keep a central history.
+Every user runs a timed task from Vox Mechana that scans new customer messages, classifies them using a rules-based engine and writes metadata to a personal log file. Omnisiah periodically merges these logs into a master sheet using timestamp-safe appends. Certain classes such as damaged orders or complaints are automatically forwarded to the relevant team.
 
 ## Folder Guide
 

@@ -1,5 +1,5 @@
 /**
- * @summary Merge distributed logs into a central sheet.
+ * @summary Merge per-user logs into the master sheet using timestamp-safe appends.
  *
  * Example:
  * ```

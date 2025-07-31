@@ -1,5 +1,5 @@
 /**
- * @summary One-time installation for TriOmni triggers and setup.
+ * @summary One-time installation sheet that links a user to Vox Mechana and schedules triggers.
  *
  * Example:
  * ```
